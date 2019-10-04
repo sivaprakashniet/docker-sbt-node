@@ -1,9 +1,9 @@
-FROM hseeberger/scala-sbt:11.0.2_2.12.8_1.2.8
+FROM hseeberger/scala-sbt:11.0.4_1.3.2_2.12.10
 
 MAINTAINER Dmitry Polienko <nigredo.tori@gmail.com>
 
-ENV NODE_VERSION=10.16.0-1nodesource1
-ENV YARN_VERSION=1.16.0-1
+ENV NODE_VERSION=10.16.3-1nodesource1
+ENV YARN_VERSION=1.19.0-1
 
 RUN rm -rf /var/lib/apt/lists/* && \
   apt-get update && \
