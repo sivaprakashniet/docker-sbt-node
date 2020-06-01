@@ -1,8 +1,8 @@
-FROM hseeberger/scala-sbt:11.0.6_1.3.9_2.12.10
+FROM hseeberger/scala-sbt:11.0.7_1.3.12_2.12.11
 
 MAINTAINER Dmitry Polienko <nigredo.tori@gmail.com>
 
-ENV NODE_VERSION=10.19.0-1nodesource1
+ENV NODE_VERSION=10.20.1-1nodesource1
 ENV YARN_VERSION=1.22.4-1
 
 # This also includes build-essential since some JS packages use native features.
