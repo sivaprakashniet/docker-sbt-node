@@ -22,6 +22,4 @@ RUN rm -rf /var/lib/apt/lists/* && \
 
 
 
-ENTRYPOINT ["/usr/local/share/docker-init.sh"]
 VOLUME [ "/var/lib/docker" ]
-CMD ["sleep", "infinity"]
