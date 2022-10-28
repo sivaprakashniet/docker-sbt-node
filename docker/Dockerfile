@@ -1,7 +1,7 @@
 FROM hseeberger/scala-sbt:8u312_1.6.2_3.1.1
 
 ENV YARN_VERSION=1.22.19-1
-
+#cmd added
 # ENV DOCKER_BUILDKIT=1
 
 # https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/docker-in-docker.md
