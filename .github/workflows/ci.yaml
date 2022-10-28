@@ -19,12 +19,12 @@ jobs:
         name: Login to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: scm143
+          password: dckr_pat_qK6SLSzTlKZsOV0tmkX-WryeLYA
       -
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: "{{defaultContext}}:docker"
+          context: .
           push: true
           tags: austindimmer/sbt-node:latest
