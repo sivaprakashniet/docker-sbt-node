@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: austindimmer/sbt-node:latest
+          tags: mktg-ops/sbt-node:latest
